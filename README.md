@@ -4,8 +4,8 @@ Note|Description
 :----|:----
 Initial macOS Support|macOS 10.15, Catalina.
 
-- Opencore version: 0.7.3
-- Release date: 06/09/2021
+- Opencore version: 0.7.4
+- Release date: 04/10/2021
 
 # Basic Steps
 
@@ -66,6 +66,7 @@ Kext|Description
 :----|:----
 [NVMeFix](https://github.com/acidanthera/NVMeFix/releases)|Used for fixing power management and initialization on non-Apple NVMe.
 [SATA-Unsupported](https://github.com/khronokernel/Legacy-Kexts/blob/master/Injectors/Zip/SATA-unsupported.kext.zip)|Adds support for a large variety of SATA controllers, mainly relevant for laptops which have issues seeing the SATA drive in macOS.<br>We recommend testing without this first.
+[RestrictEvents](https://github.com/acidanthera/RestrictEvents/releases)|Better experience with unsupported processors like AMD, Disable MacPro7,1 memory warnings and provide upgrade to macOS Monterey via Software Updates when available.
 
 # ACPI Tables
 
@@ -122,9 +123,8 @@ Please use [*ProperTree*](https://github.com/corpnewt/ProperTree/archive/refs/he
 
 SMBIOS|Description
 :----|:----
-iMac20,1|i7-10700K and lower(ie. 8 core and lower).
-iMac20,2|i9-10850K and higher(ie. 10 core).
-MacPro7,1|for Testing.
+MacPro7,1|Bacause GPU integrated in 11th gen without support for Apple.
+iMacPro1,1|Bacause GPU integrated in 11th gen without support for Apple.
 
 # Catalina and older versions of macOS
 
