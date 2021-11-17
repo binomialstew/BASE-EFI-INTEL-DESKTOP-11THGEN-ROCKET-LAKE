@@ -184,7 +184,6 @@ dk.e1000=0|Disables `com.apple.DriverKit-AppleEthernetE1000` (Apple's DEXT drive
 - Execute Disable Bit
 - EHCI/XHCI Hand-off
 - OS type: Windows 8.1/10 UEFI Mode
-- DVMT Pre-Allocated(iGPU Memory): 64MB
 - SATA Mode: AHCI
 
 # References
