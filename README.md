@@ -21,7 +21,7 @@ Initial macOS Support|macOS 12.3, Monterey
 - [x] Very light, very clean, basic files for your Hackintosh.
 - [x] Made with latest OpenCore versions.
 - [x] Two editions - *Release* and *Debug* Edition.
-- [x] Updated montly with refresh versions of Opencore.
+- [x] Updated monthly with refresh versions of Opencore.
 
 # Kexts included (**Required**)
 
