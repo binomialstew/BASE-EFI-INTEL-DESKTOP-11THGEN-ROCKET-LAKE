@@ -2,7 +2,7 @@
 
 Note|Description
 :----|:----
-Initial macOS Support|macOS 10.15, Catalina.
+Initial macOS Support|macOS 12.3, Monterey
 
 - Opencore version: 0.8.0
 - Release date: ~~04/04/2022~~, late - 18/04/2022
